@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dm-zhuk.github.io/goit-react-woolf-hw-06-phonebook/",
+  "homepage": "https://dm-zhuk.github.io/goit-react-woolf-hw-07-phonebook/",
   "dependencies": {
     "@emotion/styled": "^11.11.5",
     "@reduxjs/toolkit": "^2.2.3",
