@@ -1,11 +1,11 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getFilter } from '../../redux/contacts/selectors';
+import { selectFilter } from '../../redux/contacts/selectors';
 import { setFilter } from '../../redux/contacts/filterSlice';
 import { Label, Input } from 'components/ContactForm/index';
 
 const Filter = () => {
-  const filter = useSelector(getFilter);
+  const filter = useSelector(selectFilter);
   const dispatch = useDispatch();
 
   const handleFilterChange = evt => dispatch(setFilter(evt.target.value));
